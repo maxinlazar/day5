@@ -12,9 +12,8 @@ const StudentApp = () => {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-         
           <Typography align= 'left' variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            STUDENT APP
+             STUDENT BOOKS
           </Typography>
           <Button color="inherit"> <Link to ='/View'style={{colour:"white",textDecoration:"none"}}>view</Link></Button>
           <Button color="inherit"><Link to = '/add' style={{color :"white",textDecoration:"none"}}>Add</Link></Button>

@@ -8,10 +8,11 @@ import View from './Components/View';
 function App() {
   return (
     <div className="App"> 
+    <navbar/>
       <StudentApp/>
       <Routes>
-        <Route path={'/view'} element={<View/>}></Route>
-        <Route path={'/add'} element={<Add/>}></Route>
+        <Route path={'/view'} element={<Viewstudents >>
+        <Route path={'/add' }element={<Addstudents data={{ id: '',name: '',grade: ''}}method="post"/>
       </Routes>
     </div>
   );
